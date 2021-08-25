@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMTI Bandung</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+    <script src="jquery-3.5.1.min.js"> </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid" id="blur">
+    <!--awal navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark">   
+        <div class="container">
+        <a href="#" class="navbar-brand .abc"><img src="img/Logo Lengkap putih.PNG"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <a class="nav-item nav-link garis text-white" href="#VM">V & M</a>
+                <a class="nav-item nav-link garis text-white" href="#workplan">Work Plan</a>
+                <a class="nav-item nav-link garis text-white" href="#organize">Organize</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Register
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#" onclick="toggle()">HIMTI Sport</a>
+                    <a class="dropdown-item" href="#" onclick="alerts()">E-Sport Competition</a>
+                  </div>
+                </li>
+                <a class="nav-item btn btn-primary tombol-ig" href="https://www.instagram.com/himtibinusbandung/" target="_blank">Follow us on  <img src="img/logo_ig.png" width="20" height="20"></a>  
+              </ul>
+        </div>  
+        </div>  
+    </nav>
+    <!--akhir navbar -->
+    
+    <!-- awal Jumbotron -->
+    <section id="home">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-5 jumbo-img">
+                    <img src="img/Logo polos.png">
+                </div> 
+                <div class="col-sm-6 col-md-6"> 
+                    <p class="jumbo-tulisan">
+                        HIMPUNAN MAHASISWA <br>
+                        TEKNIK INFORMATIKA (HIMTI) <br>
+                        <b>BINUS</b> <br>
+                        @BANDUNG</p>
+                </div>                                  
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir jumbotron -->
+    
+    <!-- awal panel -->
+    <section id="VM">
+      <div class="page2 container container-fluid">
+          <div class="row">
+              <div class="col-md-5 info-panel-visi">
+                  <div class="col-lg">
+                      <h1 class="visimisi text-center">Our Vision</h1>
+                      <p>Menjadi himpunan yang unggul dan diakui secara nasional serta bermanfaat bagi mahasiswa dan juga masyarakat luas, memiliki solidaritas yang tinggi, berintegritas, kreatif serta inovatif dalam bidang teknologi berbasis nilai-nilai budaya nasional serta budaya Sunda dan menjadi wadah aspirasi kegiatan mahasiswa jurusan/program studi Teknik Informatika BINUS @Bandung pada tahun 2031.</p>
+                  </div>
+              </div>
+              <div class="col-md-5 info-panel-misi"> 
+                  <div class="col-lg">
+                      <h1 class="visimisi text-center">Our Mision</h1>
+                      <p>a. Menjadi himpunan yang dapat menampung dan menjalankan aspirasi mahasiswa jurusan/program studi Teknik Informatika. <br>
+                          b. Menyelenggarakan kegiatan mahasiswa agar tercapainya mahasiswa jurusan/program studi Teknik Informatika yang aktif, kreatif serta inovatif, berintegritas, solid dan berkompeten di bidangnya.<br> 
+                          c. Menjalin hubungan yang baik dengan lembaga pendidikan, lembaga hukum, lembaga budaya, asosiasi atau organisasi yang berhubungan dengan program studi serta himpunan-himpunan dari universitas atau sekolah tinggi lainya.<br> 
+                          d. Ikut berpartisipasi dan menjuarai kompetisi berskala nasional. <br>
+                          e. Membangun hubungan yang baik dan suasana kekeluargaan antar mahasiswa serta dosen jurusan/program studi Teknik Informatika.<br>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- akhir panel --> 
+
+    <!-- awal slider -->
+    <section id="workplan">
+    <div class="page3 container-fluid">          
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h1 class="proker">Responsi</h1>
+                <img class="d-block w-100" src="img/Responsi.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="proker">HIMTI Sport</h1>
+                <img class="d-block w-100" src="img/HIMTI Sport.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="prokerlink">Share IT</h1>
+                <a href="https://www.instagram.com/tv/Bo1tTcZF3sC/?utm_source=ig_web_copy_link" class="clickhere" target="_blank">Click here for more</a>
+                <img class="d-block w-100" src="img/Share IT.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="proker">Expo FYP</h1>
+                <img class="d-block w-100" src="img/Expo FYP.png" alt="Fourth slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="proker">HIMTI Gathering</h1>
+                <img class="d-block w-100" src="img/HIMTI GATHERING.png" alt="Fifth slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="proker">HIMTI Copation</h1>
+                <img class="d-block w-100" src="img/HIMTI COPATION.png" alt="Sixth slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="prokerlink">Field Trip</h1>
+                <a href="https://www.instagram.com/tv/B5P9Lnbnntn/?utm_source=ig_web_copy_link" class="clickhere" target="_blank">Click here for more</a>
+                <img class="d-block w-100" src="img/Field Trip.png" alt="Seventh slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="proker">Latihan Dasar Kepemimpinan</h1>
+                <img class="d-block w-100" src="img/LDK.png" alt="Eighth slide">
+              </div>
+              <div class="carousel-item">
+                <h1 class="prokerlink">Studi Banding</h1>
+                <a href="https://www.instagram.com/tv/B7JYxchgsyu/?utm_source=ig_web_copy_link" class="clickhere" target="_blank">Click here for more</a>
+                <img class="d-block w-100" src="img/Studi Banding.png" alt="Ninth slide">
+              </div>
+            </div>
+            <!-- tombol next/prev -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>                    
+    </div>
+    </section>
+    <!-- akhir slider -->
+    
+    <!-- struktur -->
+    <section id="organize" >
+    <div class="page4">
+      <h1 class="tulisan-struktur">HIMTI Structure</h1>
+      <img class="struktur" src="img/Struktur HIMTI.PNG">
+      <div class="tombol-struktur">
+        <a onclick="rename(); return false" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span> 
+          <h7 id="expand">Explore More</h7>
+        </a>
+      </div>
+    </div>
+    </section>
+    <!-- akhir struktur -->
+    
+    <!-- more struktur -->
+    <div class="page5">
+      <div class="collapse" id="collapseExample">
+        <!-- DPI -->
+        <div class="section-container text">
+          <div class="row" id="DPI">
+            <div class="col-sm-12 banner">
+              <h2 class="text-center">Dewan Perwakilan Inti</h2>
+              <div class="divider-1">
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <!-- Ketua -->
+            <div class="col-12">
+              <div class="profile-header-container text-center">   
+                <div class="profile-header-img">
+                  <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                  <!-- badge -->
+                  <div class="jabatan-label-container">
+                    <span class="label label-default jabatan-label">President of HIMTI</span>
+                    <h6 class="profile-name">Yeremia Joy Yobel Tanadi</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sekre -->
+            <div class="col-12 col-sm-12 col-md-6">
+              <div class="profile-header-container text-center">   
+                <div class="profile-header-img">
+                  <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                  <!-- badge -->
+                  <div class="jabatan-label-container">
+                    <span class="label label-default jabatan-label">Secretary of HIMTI</span>
+                    <h6 class="profile-name">Valentina Tasya Kurniawan</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Bendahara -->
+            <div class="col-12 col-sm-12 col-md-6">
+              <div class="profile-header-container text-center">   
+                <div class="profile-header-img">
+                  <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                  <!-- badge -->
+                  <div class="jabatan-label-container">
+                    <span class="label label-default jabatan-label">Treasurer of HIMTI</span>
+                    <h6 class="profile-name">Vanessa Aurellia</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Academic -->
+        <div class="section-container text">
+          <div class="row" id="Academic">
+            <div class="col-sm-12 banner">
+              <h2 class="text-center">Academic Division</h2>
+              <div class="divider-1">
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+          <!-- Academic Coordinator -->
+          <div class="col-12">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Academic Coordinator Division</span>
+                  <h6 class="profile-name">Gregorio Kurniawan</h6>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- Staff Academic -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Academic Staff Division</span>
+                  <h6 class="profile-name">Maximillian Michael</h6>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <!-- Staff Academic -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Academic Staff Division</span>
+                  <h6 class="profile-name">Sofie Adira Chrysanthia</h6>
+                </div>
+              </div>
+            </div>
+          </div>     
+          <!-- Staff Academic -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Academic Staff Division</span>
+                  <h6 class="profile-name">Kevin Alexander</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Staff Academic -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Academic Staff Division</span>
+                  <h6 class="profile-name">Hocky Harijanto</h6>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <!-- Staff Academic -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Academic Staff Division</span>
+                  <h6 class="profile-name">Malvin</h6>
+                </div>
+              </div>
+            </div>
+          </div>    
+
+
+          </div>    
+        </div>
+        <!-- Relation -->
+        <div class="section-container text">
+          <div class="row" id="Relation">
+            <div class="col-sm-12 banner">
+              <h2 class="text-center">Relation Division</h2>
+              <div class="divider-1">
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+          <!-- Relation Coordinator -->
+          <div class="col-12">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Relation Coordinator Division</span>
+                  <h6 class="profile-name">Randy Yuanda</h6>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- Staff Relation -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Relation Staff Division</span>
+                  <h6 class="profile-name">Michelle Tee Melanie</h6>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <!-- Staff Relation -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Relation Staff Division</span>
+                  <h6 class="profile-name">Finn Christoffer Kurniawan</h6>
+                </div>
+              </div>
+            </div>
+          </div>     
+          <!-- Staff Relation -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Relation Staff Division</span>
+                  <h6 class="profile-name">Edrick</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Staff Relation -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Marketing Staff Division</span>
+                  <h6 class="profile-name">William Reynaldi</h6>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <!-- Staff Relation -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Marketing Staff Division</span>
+                  <h6 class="profile-name">Gregorius Geraldi H.</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Staff Relation -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Marketing Staff Division</span>
+                  <h6 class="profile-name">Jovan Darmawan</h6>
+                </div>
+              </div>
+            </div>
+          </div>       
+          </div>    
+        </div>
+        <!-- C&D -->
+        <div class="section-container text">
+          <div class="row" id="Academic">
+            <div class="col-sm-12 banner">
+              <h2 class="text-center">Creative and Design Division</h2>
+              <div class="divider-1">
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+          <!-- C&D Coordinator -->
+          <div class="col-12">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Creative and Design Coordinator Division</span>
+                  <h6 class="profile-name">Baron Calvin Jeremy</h6>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!-- Staff C&D -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Social Media Management</span>
+                  <h6 class="profile-name">Nadhira Aliya Putri</h6>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <!-- Staff C&D -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Publication and Documentation</span>
+                  <h6 class="profile-name">Gerald Nicklaus</h6>
+                </div>
+              </div>
+            </div>
+          </div>     
+          <!-- Staff C&D -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Publication and Documentation</span>
+                  <h6 class="profile-name">Abhirama Rizkia Triadi</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Staff C&D -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Visual Design</span>
+                  <h6 class="profile-name">Leandra Ayudhia Alvaneza</h6>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <!-- Staff C&D -->
+          <div class="col-2">
+            <div class="profile-header-container text-center">   
+              <div class="profile-header-img">
+                <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                <!-- badge -->
+                <div class="jabatan-label-container">
+                  <span class="label label-default jabatan-label">Visual Design</span>
+                  <h6 class="profile-name">Nathanael DJ</h6>
+                </div>
+              </div>
+            </div>
+          </div>    
+
+
+          </div>    
+        </div>
+        <!-- HRD -->
+        <div class="section-container text">
+          <div class="row" id="DPI">
+            <div class="col-sm-12 banner">
+              <h2 class="text-center">Human Resource Development Division</h2>
+              <div class="divider-1">
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <!-- HRD Coordinator -->
+            <div class="col-12">
+              <div class="profile-header-container text-center">   
+                <div class="profile-header-img">
+                  <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                  <!-- badge -->
+                  <div class="jabatan-label-container">
+                    <span class="label label-default jabatan-label">Human Resource Coordinator Division</span>
+                    <h6 class="profile-name">Jeffrey Clay Setiawan</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Staff HRD -->
+            <div class="col-12 col-sm-12 col-md-6">
+              <div class="profile-header-container text-center">   
+                <div class="profile-header-img">
+                  <img class="rounded-circle img-fluid foto-profile" src="img/foto-profile.png">
+                  <!-- badge -->
+                  <div class="jabatan-label-container">
+                    <span class="label label-default jabatan-label">Human Resource Staff Division</span>
+                    <h6 class="profile-name">Wintari Aliifah Yasmin Prasudy</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- akhir more struktur -->
+    
+    <!-- awal footer -->
+    <div id="footer" class="text-center">
+      <div>
+        <img class="logo" src="img/Logo polos.png">
+      </div>
+    <p class="copyright">Copyright &copy; 2020 Himpunan Mahasiswa Teknik Informatika BINUS Bandung. All rights reserved</p>
+    </div>
+    <!-- akhir footer -->
+
+  </div>
+  <!-- awal pop-up himti Sport -->
+  <div id="popup">
+    <a href="#" class="close" onclick="toggle()">&times;</a>
+    <div class="container c-popup">
+      <div class="form">
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <h2 class="p-sport">Pendaftaran <span class="h-sport">HIMTI Sport</span></h2>
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+                <input class="form-control mb-2" class="w-100" placeholder="Your Name" type="text" id="nama">
+              </div>     
+              <div class="col-sm-12 col-md-12">
+                <input class="form-control mb-2" class="w-100" placeholder="Your NIM" type="text" id="nim" onkeypress="return onlyNumberKey(event)">
+              </div>
+              <button href="#" class="daftar" onclick="alertt(), toggle()">Daftar Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir pop-up himti Sport -->
+</body>
+</html>
+
+<!-- Script JS -->
+<script src="main.js"></script>
